@@ -4,6 +4,13 @@ contract MyFirstContract {
     string private name;
     uint private age;
     
+    
+     constructor() public {                 
+       name="";
+       age=0;
+    } 
+    
+    
     function setName(string memory newName) public {
         name = newName;
     }
